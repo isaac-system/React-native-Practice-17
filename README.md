@@ -4,7 +4,6 @@
 <div>유튜브 채널 byprogrammers https://www.youtube.com/watch?v=n6DmU1igb_4&t=204s 를 보고</div>
 <div>백엔드 연결은 안되었습니다. 프로젝트에 나오는 데이터는 더미데이터입니다.</div>
 <div>react-native 를 연습해 보았습니다.</div>
-<div>master branch에 소스코드 있습니다.</div>
 <div class="container"> 
 <div class="row">
   <img src="https://user-images.githubusercontent.com/58515572/189593121-4fca141d-f5ee-4a30-8870-d329b5dbcd2b.png" width="250px">
