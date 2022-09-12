@@ -1,6 +1,7 @@
 import {FlatList} from 'react-native-gesture-handler';
 import React from 'react';
 import {View, Text, ImageBackground, Image, ScrollView} from 'react-native';
+import {useNavigation} from '@react-navigation/native';
 
 import {
   CategoryCard,
@@ -48,6 +49,7 @@ const Section = ({containerStyle, title, onPress, children}) => {
   );
 };
 const Home = () => {
+  const navigation = useNavigation();
   const nowTime = moment().format('ll');
 
   function renderHeader() {
@@ -175,12 +177,19 @@ const Home = () => {
           }}
           renderItem={({item, index}) => (
             <CategoryCard
+              sharedElementPrefix="Home"
               category={item}
               containerStyle={{
                 marginLeft: index === 0 ? SIZES.padding : SIZES.base,
                 marginRight:
                   index === dummyData.categories.length - 1 ? SIZES.padding : 0,
               }}
+              onPress={() =>
+                navigation.navigate('CourseListening', {
+                  category: item,
+                  sharedElementPrefix: 'Home',
+                })
+              }
             />
           )}
         />
@@ -201,7 +210,7 @@ const Home = () => {
           scrollEnabled={false}
           keyExtractor={item => `PopularCourses-${item.id}`}
           contentContainerStyle={{
-            marginTop: SIZES.radius,  
+            marginTop: SIZES.radius,
             paddingHorizontal: SIZES.padding,
           }}
           renderItem={({item, index}) => (

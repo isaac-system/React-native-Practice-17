@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/OnlineLearningApp.iml" filepath="$PROJECT_DIR$/.idea/modules/OnlineLearningApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/OnlineLearningApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/OnlineLearningApp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-334090119/OnlineLearningApp.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-334090119/OnlineLearningApp.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/915293699/OnlineLearningApp.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/915293699/OnlineLearningApp.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1713311394/OnlineLearningApp.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/1713311394/OnlineLearningApp.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1816399558/OnlineLearningApp.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/-1816399558/OnlineLearningApp.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2079449535/OnlineLearningApp.react-native-shared-element.iml" filepath="$PROJECT_DIR$/.idea/modules/-2079449535/OnlineLearningApp.react-native-shared-element.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/584439447/OnlineLearningApp.react-native-svg.iml" filepath="$PROJECT_DIR$/.idea/modules/584439447/OnlineLearningApp.react-native-svg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1695575518/OnlineLearningApp.react-native-video.iml" filepath="$PROJECT_DIR$/.idea/modules/1695575518/OnlineLearningApp.react-native-video.iml" />
+    </modules>
+  </component>
+</project>

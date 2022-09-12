@@ -163,7 +163,7 @@ const MainLayout = ({appTheme}) => {
             style={{
               flex: 1,
               borderRadius: SIZES.radius,
-              backgroundColor: COLORS.primary3,
+              backgroundColor: appTheme?.backgroundColor2,
             }}>
             <Tabs scrollX={scrollX} />
           </View>
